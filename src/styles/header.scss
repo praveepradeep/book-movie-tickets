@@ -1,0 +1,17 @@
+.header-section {
+  align-items: center;
+  h3 {
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+  .fa-search {
+    color: black;
+  }
+  .nav-items {
+    ul > li {
+      margin: 10px;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  }
+}

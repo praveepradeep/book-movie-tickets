@@ -1,0 +1,30 @@
+@import "./styles/colors.scss";
+@import "./styles/header.scss";
+@import "./styles/footer.scss";
+@import "./styles/movie-drawer.scss";
+@import "./styles/movie-tiles.scss";
+@import "./styles/movie-details.scss";
+@import "./styles/buy-tickets.scss";
+
+body {
+  background: $bg-blue;
+  width: fit-content;
+  color: $white;
+  .txt {
+    &-color {
+      color: $blue;
+      letter-spacing: 3px;
+    }
+    &-bg-color {
+      background-color: $blue;
+      color: $white;
+    }
+  }
+  button {
+    width: 185px;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}

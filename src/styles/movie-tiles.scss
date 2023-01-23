@@ -1,0 +1,46 @@
+.movie-section {
+  margin: 2.5rem 0;
+  .title {
+    padding: 3rem 0;
+    .title-line {
+      border-top: 1px solid $blue;
+      width: 80%;
+    }
+  }
+}
+
+.movie-tiles {
+  cursor: pointer;
+  margin-right: 3rem;
+  .image-container {
+    border-radius: 5px;
+    height: 350px;
+    width: 250px;
+    img {
+      border-radius: 5px;
+      height: 100%;
+      width: 100%;
+    }
+    .hover-content {
+      display: none;
+    }
+    &:hover {
+      .blur-image {
+        filter: blur(2px);
+      }
+      .hover-content {
+        position: absolute;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 70%;
+        align-items: center;
+        width: 100%;
+        transition: opacity 0.35s ease;
+      }
+    }
+  }
+  .movie-details {
+  }
+}

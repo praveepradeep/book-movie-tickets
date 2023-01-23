@@ -1,0 +1,82 @@
+.date-container {
+  button {
+    width: 3rem;
+  }
+
+  .date-wrapper {
+    background: #fffcfc87;
+    margin: 0 1rem;
+    border-radius: 10px;
+    &:hover {
+      cursor: pointer;
+      background-color: $blue;
+      transform: scale(1.3);
+      transition: 1s ease;
+
+      .hole {
+        background: $bg-blue;
+        width: 18px;
+        height: 18px;
+        border-radius: 12px;
+        &.top-hole {
+          top: -9px;
+        }
+        &.right-hole {
+          right: -9px;
+          top: 3rem;
+        }
+        &.left-hole {
+          left: -9px;
+          top: 3rem;
+        }
+      }
+    }
+  }
+}
+
+.theature-list-container {
+  .theatuer-list {
+    min-height: 5rem;
+    .theature-name {
+      margin-left: 2rem;
+    }
+    .time-slots {
+      &:hover {
+        cursor: pointer;
+      }
+      margin-right: 1.5rem;
+      width: 8rem;
+      background: #fbfbfbe0;
+      border-radius: 7px;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #28bb28;
+    }
+  }
+}
+
+.seat-selector-container {
+  span {
+    font-size: 0.8rem;
+    color: black;
+    position: absolute;
+    font-weight: 700;
+  }
+  .alphabet {
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;  
+  }
+  .seat-icon {
+    margin-left: 5rem;
+  }
+  .seat-vertical {
+    padding: 0 2rem;
+    i {
+      cursor: pointer;
+      font-size: 2rem;
+    }
+  }
+}
